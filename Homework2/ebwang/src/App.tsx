@@ -81,7 +81,7 @@ function ChartCard({
 function Layout() {
   // For next homework, can set this title through interactions where the user
   // can pick an artist and set the number of tracks to show
-  const [barTitle, setBarTitle] = useState<string>("Top 10 Tracks for Taylor Swift");
+  const [barTitle, setBarTitle] = useState<string>("Top 10 Tracks for Taylor Swift Ranked by Popularity");
 
   return (
     <Box

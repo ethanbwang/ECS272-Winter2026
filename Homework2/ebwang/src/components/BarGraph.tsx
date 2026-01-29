@@ -96,7 +96,7 @@ export default function BarGraph({ setBarTitle }: { setBarTitle?: React.Dispatch
         setNumTracksToShow(n);
 
         // Bar graph title would be dynamically set here
-        setBarTitle?.(`Top ${n} Tracks for ${selectedArtist}`);
+        setBarTitle?.(`Top ${n} Tracks for ${selectedArtist} Ranked by Popularity`);
 
         return tracks.slice(0, n);
     }, [allTracks, selectedArtist, numTracksToShow]);
